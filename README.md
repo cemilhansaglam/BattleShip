@@ -5,12 +5,14 @@ both processes can directly access the same memory area, which makes data transf
 moves almost instantaneous. Thanks to this method, delays during players' moves were
 minimized; thus, both sides could keep the game state up-to-date by instantly following each
 other's grid status.
+
 There were several important reasons why we preferred shared memory over other IPC methods
 such as pipe or message passing. This method requires less processing load than other methods,
 while offering faster and continuous data transfer. In our game, the fact that both processes could
 quickly access the other side's moves was critical to ensuring the fluidity and synchronization of
 the game. The speed and efficiency provided by shared memory allowed moves to respond
 quickly to each other, which made the game more real-time for the user.
+
 In addition, the speed and direct access advantages offered by shared memory also provided
 great benefits in the visualization phase of the game. The fact that both processes could access
 the current game state at the same time facilitated the instant and simultaneous display of moves
