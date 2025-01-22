@@ -20,6 +20,7 @@ graphically. As a result, structuring the IPC structure on shared memory enabled
 provide a fast, synchronized and user-friendly experience. This method, which allows instant data
 exchange between processes, made a significant contribution to the project and for this reason we
 preferred to use shared memory as the basic IPC method throughout the project.
+
 There are screenshots of different endings on the other pages. 
 
 ![image](https://github.com/user-attachments/assets/854b240a-8387-4da1-ad7c-9f3ddee849ac)
